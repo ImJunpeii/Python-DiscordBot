@@ -1,7 +1,8 @@
 import discord
-import json
 
 ## This is the config file, you can delete this if you want.
+
+import json
 
 with open('./config/config.json') as f:
     config = json.load(f)
